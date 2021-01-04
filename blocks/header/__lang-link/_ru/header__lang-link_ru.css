@@ -1,0 +1,12 @@
+.header__lang-link_ru {
+    position: absolute;
+    top: 46px;
+    right: 95px;;
+}
+
+@media screen and (max-width: 500px) {
+    .header__lang-link_ru {
+        top: 30px;
+        right: 56px;; 
+    }
+}

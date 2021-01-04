@@ -1,0 +1,15 @@
+.cover {
+    margin: 0 auto;
+    position: relative;
+}
+
+.cover:hover .cover__image {
+    opacity: 0.3;
+    transition: opacity .5s ease-in-out;  
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        width: 90%;
+    }
+}
