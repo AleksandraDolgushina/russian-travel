@@ -1,19 +1,19 @@
 .header__logo {
-    background-image: url(../../../images/logo.png);
-    width: 176px;
-    height: 52px;
-    position: absolute;
-    background-size: cover;
-    top: 28px;
-    left: 48px;
+    max-width: 176px;
+    min-height: 52px;
+    margin-left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-logo {
+        margin-left: 24px;
+    }
 }
 
 @media screen and (max-width: 426px) {
     .header__logo {
-        width: 142px;
-        height: 42px;
-        position: absolute;
-        top: 16px;
-        left: 16px;
+        max-width: 142px;
+        min-height: 42px;
+        margin-left: 16px;
     }
 }
