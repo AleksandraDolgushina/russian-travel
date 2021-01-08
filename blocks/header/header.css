@@ -1,12 +1,10 @@
 .header {
-    height: 100vh;
-    max-height: 52px;
     display: flex;
     justify-content: space-between;
     padding-top: 28px;    
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 767px) {
     .header {
         max-height: 42px;
         padding-top: 16px;

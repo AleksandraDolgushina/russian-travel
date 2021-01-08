@@ -3,14 +3,15 @@
     margin: 0 auto;
     padding-top: 32px;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 22px;
     text-align: center;
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 767px) {
     .cover__subtitle {
         font-size: 14px;
+        line-height: 16px;
         width: 266px;
         padding-top: 16px;
     }
